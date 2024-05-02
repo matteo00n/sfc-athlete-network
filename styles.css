@@ -1,0 +1,86 @@
+/* General body styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background: #0033ab; /* St. Francis deep blue */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-weight: bold;
+    color: #ed1c24; /* St. Francis red */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px; /* Add border radius for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+section h2 {
+    color: #0033ab; /* St. Francis deep blue */
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+/* Button styles */
+button {
+    background-color: #0033ab; /* St. Francis deep blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+button:hover {
+    background-color: #001f6b; /* Darker shade of blue on hover */
+}
+
+/* Link styles */
+a {
+    color: #0033ab; /* St. Francis deep blue */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for hover effect */
+}
+
+a:hover {
+    color: #001f6b; /* Darker shade of blue on hover */
+}
